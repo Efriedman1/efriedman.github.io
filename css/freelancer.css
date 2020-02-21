@@ -9730,7 +9730,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 15rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .masthead {
     
     padding-bottom: 0rem;
@@ -9743,6 +9743,15 @@ a.text-dark:hover, a.text-dark:focus {
     display: none;
     font-size: 1.5rem;
   }
+}
+
+.mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {display: inline;}
 }
 
 .portfolio {
