@@ -9730,7 +9730,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 500px) {
   .masthead {
     
     padding-bottom: 0rem;
@@ -9740,6 +9740,7 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
+    display: none;
     font-size: 1.5rem;
   }
 }
