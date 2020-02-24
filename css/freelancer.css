@@ -9743,6 +9743,14 @@ a.text-dark:hover, a.text-dark:focus {
     display: none;
     font-size: 1.5rem;
   }
+
+  #contain{
+    left:0;
+    right: 0;
+    display: flex;
+    Flex-direction: column;
+    Align-items: center;
+  }
 }
 
 .mobileShow {display: none;}
