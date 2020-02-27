@@ -6205,7 +6205,16 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #080808 !important;
+  background-color: #0e0e0e !important;
+}
+
+.bg-about{
+  background-image: url(/img/AboutSectionBG.png);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
